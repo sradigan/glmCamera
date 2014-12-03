@@ -49,6 +49,6 @@ glBindVertexArray(0);
 
 TODO
 ----
-Include an orthographic interface
-Upload an example program using the code
+* Include an orthographic interface
+* Upload an example program using the code
 
