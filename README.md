@@ -25,7 +25,9 @@ cam.genProjMat(); // Generate the Projection Matrix
 For the most part this isn't any different from using glm to manipulate a
 graphics matrix in the first place, for example, rotate the view matrix
 1 degree(0.017453 in radians) about the Y axis:
+```C++
 cam.view = glm::rotate(cam.view, 0.017453f, glm::vec3(0.0f, 1.0f, 0.0f));
+```
 
 ### Use with OpenGL
 Note: This code uses uniforms in the shader code to manipulate the vertices
